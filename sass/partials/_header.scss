@@ -1,0 +1,28 @@
+/*estilos header*/
+
+header{
+    background-color:$rosa ;
+    display:flex;
+    justify-content: space-between;
+    ul{
+        height: 100%;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-transform: uppercase;
+    }
+    img{
+        width: 100px;
+        margin: 5px 5px;  
+    }
+    a{
+        height:100%;    
+        color: $violeta ;
+        font-family: $font;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-transform: uppercase;
+     }
+ }

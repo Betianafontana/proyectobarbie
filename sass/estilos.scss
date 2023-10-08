@@ -1,0 +1,53 @@
+
+/*font-family: 'Karla', sans-serif;*/
+/*#9F0D7F
+#EA1179
+#F79BD3*/
+/*1rem=10px*/
+
+@import "./partials/variables.scss";
+@import "./partials/footer.scss";
+@import "./partials/formularios.scss";
+@import "./partials/header.scss";
+@import "./partials/index.scss";
+@import "./partials/parrafo.scss";
+@import "./partials/animacione.scss";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: $font;
+    font-size: 102.5%;
+}
+
+ nav{
+    width: 100%;
+    }
+    
+/*efectos encabezados*/
+h1{
+    font-size: 4rem;
+    color: $violeta ;
+    text-align: center;
+    margin:1%;
+    padding: 1%;
+    }
+h2{
+    font-size: 2rem;
+    color: $violeta ;
+    text-align: center;  
+    margin: 2%;
+    padding: 2%;
+}  
+h3{
+    color: $violeta ;
+    text-align: center;  
+    margin: 2%;
+    padding: 2%;
+} 
+
+
+
+   

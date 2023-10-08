@@ -1,0 +1,34 @@
+/*efectos animaciones*/
+.transicion{
+    height: 20px;
+    transition: 2s;
+    margin-bottom: 40px;
+ }
+ .transicion:hover{
+    color:aqua;
+    transform: scale(1.5,1.5) rotate(20deg);
+ }
+ .anima{
+    animation-name: efecto;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
+ }
+ @keyframes efecto{
+    0%{
+        color:aqua;
+    }
+    25%{
+        transform: rotate3d(20deg);
+        color:blue;
+    }
+    50%{
+        transform: perspective(2);
+    }
+    75%{
+        color: blueviolet;
+    }
+    100%{
+        color: aqua;
+    }
+ }

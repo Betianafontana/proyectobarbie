@@ -1,0 +1,202 @@
+/*font-family: 'Karla', sans-serif;*/
+/*#9F0D7F
+#EA1179
+#F79BD3*/
+/*1rem=10px*/
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap");
+/*estilos footer*/
+.redes {
+  text-align: left;
+  color: darkred;
+  margin: 5%;
+}
+
+.redes-sociales {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.redes-sociales ul li {
+  display: inline-block;
+  padding: 5px 0px;
+  text-align: center;
+}
+
+/*efectos formularios*/
+.form {
+  color: #EA1179;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form input {
+  width: 90%;
+  height: 30px;
+  margin: 0.5rem;
+}
+.form button {
+  padding: 0.5em 1em;
+  border: none;
+  background: rgb(255, 100, 146);
+  cursor: pointer;
+}
+.form textarea {
+  width: 90%;
+  height: 100px;
+  margin: 0.5rem;
+}
+.form select {
+  width: 90%;
+  height: 50px;
+  margin: 0.5rem;
+}
+
+.form1 {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+
+/*estilos header*/
+header {
+  background-color: #F79BD3;
+  display: flex;
+  justify-content: space-between;
+}
+header ul {
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+}
+header img {
+  width: 100px;
+  margin: 5px 5px;
+}
+header a {
+  height: 100%;
+  color: #9F0D7F;
+  font-family: "Karla", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+/*Index*/
+.tituloindex {
+  padding: 10px 0px;
+  height: 800px;
+  text-align: center;
+  color: #EA1179;
+  background-image: url(../imagenes/principal.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.titulos {
+  text-align: center;
+  color: #EA1179;
+}
+
+.titulo1 {
+  color: #EA1179;
+  font-size: 2rem;
+}
+
+/*efectos parrafo*/
+.parrafo {
+  color: darkred;
+  font-size: 2rem;
+  text-align: justify;
+  margin: 2%;
+  justify-content: center;
+}
+
+.parrafo1 {
+  color: darkred;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/*efectos animaciones*/
+.transicion {
+  height: 20px;
+  transition: 2s;
+  margin-bottom: 40px;
+}
+
+.transicion:hover {
+  color: aqua;
+  transform: scale(1.5, 1.5) rotate(20deg);
+}
+
+.anima {
+  animation-name: efecto;
+  animation-duration: 4s;
+  animation-delay: 3s;
+  animation-iteration-count: 2;
+}
+
+@keyframes efecto {
+  0% {
+    color: aqua;
+  }
+  25% {
+    transform: rotate3d(20deg);
+    color: blue;
+  }
+  50% {
+    transform: perspective(2);
+  }
+  75% {
+    color: blueviolet;
+  }
+  100% {
+    color: aqua;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Karla", sans-serif;
+  font-size: 102.5%;
+}
+
+nav {
+  width: 100%;
+}
+
+/*efectos encabezados*/
+h1 {
+  font-size: 4rem;
+  color: #9F0D7F;
+  text-align: center;
+  margin: 1%;
+  padding: 1%;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #9F0D7F;
+  text-align: center;
+  margin: 2%;
+  padding: 2%;
+}
+
+h3 {
+  color: #9F0D7F;
+  text-align: center;
+  margin: 2%;
+  padding: 2%;
+}
+
+/*# sourceMappingURL=estilos.css.map */
